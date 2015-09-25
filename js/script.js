@@ -11,7 +11,9 @@ $(document).ready(function(){
 	});
 
 	$('.lb-close').on({
-		mousedown : function(){
+		mousedown : function(e){
+			e.preventDefault();
+			e.stopPropagation();
 			$('.lightbox').removeClass('show');
 		}
 	});
