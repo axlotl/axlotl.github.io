@@ -2,7 +2,8 @@ $(document).ready(function(){
 
 	if( readCookie( 'forest-trailer') !== "true"){
 		createCookie( 'forest-trailer', true, 1);
-
+		var markup = '<iframe  src="https://www.youtube.com/embed/odkf4SAY8pI?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+		$('.videowrapper').append( markup );
 		setTimeout(function(){
 			showVideo();
 		}, 2000);
@@ -32,8 +33,10 @@ $(document).ready(function(){
 });
 
 function showVideo(){
-	var markup = '<iframe  src="https://www.youtube.com/embed/odkf4SAY8pI?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-	$('.videowrapper').append( markup );
+	if( $('.videowrapper iframe').length === 0){
+		var markup = '<iframe  src="https://www.youtube.com/embed/odkf4SAY8pI?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+		$('.videowrapper').append( markup );
+	}
 	$('.lightbox').addClass('show');
 }
 
