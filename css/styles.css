@@ -17,7 +17,7 @@ html {
 }
 .wrapper {
 	text-align: center;
-	margin: 20% auto;
+	margin: 13% auto;
 
 	height: 100%;
 }
@@ -28,9 +28,10 @@ img {
 	margin: auto;
 }
 p {
-	font-size: 20px;
+	font-size: 28px;
 	color: #eee;
-	margin: 0 auto ;
+	
+	text-transform:uppercase;
 }
 
 a {
@@ -46,6 +47,11 @@ button {
 	margin: 20px auto;
 	text-transform: uppercase;
 	cursor: pointer;
+	transform: 0.2s ease all;
+}
+button:hover {
+	background: #c7dfe0;
+	color: #1b3031;
 }
 .lightbox {
 	opacity: 0;
@@ -95,11 +101,11 @@ button {
 
 @media all and (max-width: 1200px){
 	p, button {
-		font-size: 16px;
+		font-size: 20px;
 	}
 }
 @media all and (max-width: 800px){
 	p, button {
-		font-size: 14px;
+		font-size: 18px;
 	}
 }
