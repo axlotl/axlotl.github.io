@@ -1,0 +1,11 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background: red; }
+  body h1 {
+    font-family: helvetica, sans-serif;
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all; }
+
+/*# sourceMappingURL=styles.css.map */

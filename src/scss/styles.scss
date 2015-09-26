@@ -1,0 +1,12 @@
+*, *:before, *:after {
+
+  box-sizing: border-box;
+}
+
+body {
+	background: red;
+	h1 {
+		font-family: helvetica, sans-serif;	
+		transition: 0.3s ease all;
+	}
+}

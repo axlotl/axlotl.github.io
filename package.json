@@ -1,0 +1,27 @@
+{
+  "name": "github.io",
+  "version": "1.0.0",
+  "description": "gulp intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axlotl/axlotl.github.io.git"
+  },
+  "author": "axlotl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axlotl/axlotl.github.io/issues"
+  },
+  "homepage": "https://github.com/axlotl/axlotl.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.1"
+  }
+}
