@@ -1,12 +1,21 @@
 *, *:before, *:after {
-
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-	background: red;
+	background: blue;
 	h1 {
 		font-family: helvetica, sans-serif;	
 		transition: 0.3s ease all;
 	}
+}
+.one {
+	width:861px;
+	height:715px;
+	background: url(/src/img/clavicle.jpg);
+}
+.two {
+	width: 600px;
+	height: 795px;
+	background: url(/src/img/freas1.jpg);
 }

@@ -1,11 +1,3 @@
-*, *:before, *:after {
-  box-sizing: border-box; }
-
-body {
-  background: red; }
-  body h1 {
-    font-family: helvetica, sans-serif;
-    -webkit-transition: 0.3s ease all;
-    transition: 0.3s ease all; }
+p{color:#fff}*,*:before,*:after{box-sizing:border-box}body{background:blue}body h1{font-family:helvetica, sans-serif;-webkit-transition:0.3s ease all;transition:0.3s ease all}.one{width:861px;height:715px;background:url(/src/img/clavicle.jpg)}.two{width:600px;height:795px;background:url(/src/img/freas1.jpg)}
 
 /*# sourceMappingURL=styles.css.map */
